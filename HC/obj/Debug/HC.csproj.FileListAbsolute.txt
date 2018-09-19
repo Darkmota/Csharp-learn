@@ -1,0 +1,6 @@
+E:\HC\HC\bin\Debug\HC.exe.config
+E:\HC\HC\bin\Debug\HC.exe
+E:\HC\HC\bin\Debug\HC.pdb
+E:\HC\HC\obj\Debug\HC.csprojResolveAssemblyReference.cache
+E:\HC\HC\obj\Debug\HC.exe
+E:\HC\HC\obj\Debug\HC.pdb
