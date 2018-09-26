@@ -4,3 +4,9 @@ E:\HC\HC\bin\Debug\HC.pdb
 E:\HC\HC\obj\Debug\HC.csprojResolveAssemblyReference.cache
 E:\HC\HC\obj\Debug\HC.exe
 E:\HC\HC\obj\Debug\HC.pdb
+C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC\bin\Debug\HC.exe.config
+C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC\obj\Debug\HC.exe
+C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC\obj\Debug\HC.pdb
+C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC\bin\Debug\HC.exe
+C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC\bin\Debug\HC.pdb
+C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC\obj\Debug\HC.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC3\bin\Debug\HC3.exe.config
+C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC3\bin\Debug\HC3.exe
+C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC3\bin\Debug\HC3.pdb
+C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC3\obj\Debug\HC3.exe
+C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC3\obj\Debug\HC3.pdb
+C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC3\obj\Debug\HC3.csprojResolveAssemblyReference.cache
