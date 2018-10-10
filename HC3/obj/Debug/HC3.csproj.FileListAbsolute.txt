@@ -4,3 +4,10 @@ C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC3\bin\D
 C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC3\obj\Debug\HC3.exe
 C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC3\obj\Debug\HC3.pdb
 C:\Users\Administrator\Desktop\Csharp-learn-master\Csharp-learn-master\HC3\obj\Debug\HC3.csprojResolveAssemblyReference.cache
+D:\GithubRepository\Csharp-learn\HC3\bin\Debug\HC3.exe.config
+D:\GithubRepository\Csharp-learn\HC3\bin\Debug\HC3.exe
+D:\GithubRepository\Csharp-learn\HC3\bin\Debug\HC3.pdb
+D:\GithubRepository\Csharp-learn\HC3\obj\Debug\HC3.csprojAssemblyReference.cache
+D:\GithubRepository\Csharp-learn\HC3\obj\Debug\HC3.csproj.CoreCompileInputs.cache
+D:\GithubRepository\Csharp-learn\HC3\obj\Debug\HC3.exe
+D:\GithubRepository\Csharp-learn\HC3\obj\Debug\HC3.pdb
