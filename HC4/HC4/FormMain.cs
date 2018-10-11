@@ -22,5 +22,11 @@ namespace HC4
             Form1 childForm = new Form1();
             childForm.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 childForm = new Form2();
+            childForm.Show();
+        }
     }
 }
