@@ -64,10 +64,7 @@ namespace HC4
 
         private void n0_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text[0] != '0')
-            {
-                textBox1.Text += '0';
-            }
+            textBox1.Text += '0';
         }
         
         private void point_Click(object sender, EventArgs e)
