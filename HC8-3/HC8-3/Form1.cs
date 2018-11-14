@@ -34,7 +34,6 @@ namespace HC8_3
             g.TranslateTransform(220, 220);
             g.ScaleTransform(-1, 1);
 
-            g.DrawImage(Bit, 0, 0);
             g.DrawLine(p, new Point(-200, 0), new Point(200, 0));
             g.DrawLine(new Pen(new SolidBrush(Color.Red)), new Point(0, -200), new Point(0, 200));
         }
@@ -46,7 +45,6 @@ namespace HC8_3
         private void Form1_Load(object sender, EventArgs e)
         {
             g = CreateGraphics();
-            textBox3.
         }
 
         private void RefreshButton_Click(object sender, EventArgs e)
@@ -58,6 +56,16 @@ namespace HC8_3
         {
             RefreshIt();
             g.MultiplyTransform(m);
+            g.DrawImage(Bit, 0, 0);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            Matrix NewMateix = new Matrix((float)Convert.ToDouble(Text), m.Elements[1], m.Elements[2], m.Elements[3], m.Elements[4], m.Elements[5]);
+            m = NewMateix;
+            RefreshIt();
+            g.MultiplyTransform(m);
+            g.DrawImage(Bit, 0, 0);
         }
     }
 }
