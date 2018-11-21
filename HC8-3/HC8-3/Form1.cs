@@ -20,6 +20,8 @@ namespace HC8_3
         public static Bitmap Bit = new Bitmap(Application.StartupPath + @"\picture.png");
         private void RefreshIt()
         {
+            Matrix NewMateix = new Matrix(Convert.ToSingle(textBox1.Text), Convert.ToSingle(textBox2.Text), Convert.ToSingle(textBox4.Text), Convert.ToSingle(textBox5.Text), Convert.ToSingle(textBox7.Text), Convert.ToSingle(textBox8.Text));
+            /*
             textBox1.Text = m.Elements[0].ToString();
             textBox2.Text = m.Elements[1].ToString();
             textBox3.Text = "0";
@@ -29,11 +31,15 @@ namespace HC8_3
             textBox7.Text = m.Elements[4].ToString();
             textBox8.Text = m.Elements[5].ToString();
             textBox9.Text = "1";
+            */
             // initialize
+            g.Clear(this.BackColor);
             g.ResetTransform();
             g.TranslateTransform(220, 220);
             g.ScaleTransform(-1, 1);
 
+            g.MultiplyTransform(NewMateix);
+            g.DrawImage(Bit, 0, 0);
             g.DrawLine(p, new Point(-200, 0), new Point(200, 0));
             g.DrawLine(new Pen(new SolidBrush(Color.Red)), new Point(0, -200), new Point(0, 200));
         }
@@ -45,6 +51,15 @@ namespace HC8_3
         private void Form1_Load(object sender, EventArgs e)
         {
             g = CreateGraphics();
+            textBox1.Text = "1";
+            textBox2.Text = "0";
+            textBox3.Text = "0";
+            textBox4.Text = "0";
+            textBox5.Text = "1";
+            textBox6.Text = "0";
+            textBox7.Text = "0";
+            textBox8.Text = "0";
+            textBox9.Text = "1";
         }
 
         private void RefreshButton_Click(object sender, EventArgs e)
